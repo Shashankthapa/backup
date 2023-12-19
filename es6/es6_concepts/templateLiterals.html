@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // es5
+        let g1 = "Hello";
+        let g2 = "sir";
+        console.log(g1 + " Shashank " + g2);
+
+        // es6 - String literals..
+        let g3 = "Hi";
+        let g4 = "mam ";
+        console.log(`(${g3}), Sujana ${g4}`);
+
+        // String literal methods..
+        let fname = "Shashank";
+        let lname = "Thapa";
+        let fname_lname = `${fname}${lname} `;
+
+        console.log(fname.startsWith("S"));
+        console.log(fname.endsWith('k'));
+        console.log(fname_lname.includes('apa'))
+        console.log(fname_lname.repeat(5));
+
+    </script>
+</body>
+</html>

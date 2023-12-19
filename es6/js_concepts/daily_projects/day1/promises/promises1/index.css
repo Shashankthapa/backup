@@ -1,0 +1,17 @@
+#og {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 250px;
+}
+
+#rep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 250px;
+}
+
+.item{
+    position : absolute;
+}

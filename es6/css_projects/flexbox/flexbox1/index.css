@@ -1,0 +1,17 @@
+.first-sec{
+    display : flex;
+    background-color: green;
+    height : 45vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2-sec1{
+    background-color: rgb(212, 230, 184);
+    margin : 10px;
+    padding : 10px;
+    font-family: 'Lucida Sans';
+    height : 60px;
+    width: 40vh;
+}
